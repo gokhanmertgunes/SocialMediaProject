@@ -1,8 +1,8 @@
 <?php
 
-const DSN = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_1d453c6129faf48;port=3306;charset=utf8mb4";
-const USER = "b3192a058df222"; 
-const PASSWORD = "9f123a81";
+const DSN = "*********************************************";
+const USER = "******"; 
+const PASSWORD = "**********";
 
 $db = new PDO(DSN, USER, PASSWORD);
 
