@@ -1,0 +1,109 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.header {
+    background-color: #0d6efd;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.profile-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+.friend {
+    text-align: center;
+    align-items: center;
+}
+
+.avatar img,
+.friend img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.notification-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.full-name {
+    text-align: left;
+}
+
+.sidebar-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+
+.timeline {
+    border-radius: 8px;
+}
+
+.post {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post .btn {
+    margin-right: 10px;
+}
+
+.comments {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F0F2F5;
+    border-radius: 8px;
+}
+
+.liked,
+.liked:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control:focus {
+    border-color: rgba(98, 80, 255, 1) !important;
+    box-shadow: 0 0 5px rgba(98, 80, 255, 1) !important;
+}
