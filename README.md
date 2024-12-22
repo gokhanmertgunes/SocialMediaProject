@@ -100,12 +100,3 @@ timestamp (DateTime)
   - 404.php
   - 500.php
 ```
-
-
-## phpMyAdmin Credentials:
-
-**URL:**
-https://databases.000webhost.com/db_sql.php?db=id20787719_socialmedia_db
-
-**Password:**
-CTIS@256project
